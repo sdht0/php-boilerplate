@@ -15,7 +15,7 @@ class ErrorHandler {
      * @param ExceptionObject $e
      * @return void
      */
-    private static function handleError($message, $e = NULL) {
+    protected static function handleError($message, $e = NULL) {
         $arr = array("message" => $message, "file" => "", "errorobject" => NULL);
         if ($e != NULL) {
             $arr = array("message" => $message . "; " . $e->getMessage(), "errorfile" => $e->getFile(), "errorobject" => $e);

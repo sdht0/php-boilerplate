@@ -9,9 +9,9 @@
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <link rel="stylesheet" href="<?php echo CSS_URL; ?>normalize.css">
+        <link rel="stylesheet" href="<?php echo CSS_URL; ?>main.css">
+        <script src="<?php echo JS_URL; ?>vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body> 
         <!--[if lt IE 8]>
