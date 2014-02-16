@@ -22,6 +22,12 @@ Features
 * AmazonBatchMail: Send mass mails in parallel using Amazon SES
 
 
+Usage
+-----
+Copy `config-sample.php` to `config.php` and edit the file with proper values.  
+The Examples folder provides some guide as how to put the Boilerplate to use.
+
+
 Contributing
 ------------
 
